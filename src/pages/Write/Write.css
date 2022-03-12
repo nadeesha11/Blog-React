@@ -1,0 +1,50 @@
+.writeform{
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.write-form-group{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.write-input{
+    border: none;
+    margin: 20px;
+    width: 650px;
+    
+   
+}
+.write-text{
+    height: 100vh;
+    width:700px ;
+    resize: none;
+}
+.write-input:focus{
+
+    outline: none;
+}
+.Add-icon{
+    margin: 20px;
+}
+.write-submit{
+     top: 300px;
+     right: 20px;
+    position: absolute;
+    border-radius: 6px;
+    border:none;
+    padding: 10px;
+    background-color: aqua;
+   cursor: pointer;
+
+}
+.Img{
+    width: 60%;
+    height: 150px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 40px auto;
+}
+

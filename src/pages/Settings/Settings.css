@@ -1,0 +1,77 @@
+
+.settings{
+    display: flex;
+    margin: 5px;
+}
+/* .profile-picture{
+  float: center;
+} */
+
+
+.settings-wrapper{
+   
+    flex: 9;
+}
+.settings-title{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings-update-title{
+
+    color: lightsalmon;
+    font-size: 30px;
+    margin: 20px;
+}
+.settings-delete-title{
+
+    color: rgb(187, 25, 87);
+    font-size: 12px;
+    margin: 20px;
+}
+.settings-form{
+    display: flex;
+    flex-direction: column;
+}
+.settingspp{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin: 2px auto 2px auto;
+}
+.settingspp img{
+    height: 170px;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 7px;
+  
+
+}
+.settings-pp-icon{
+    margin: 20px;
+    cursor: pointer;
+}
+.settings-form label{
+
+    margin: 10px  0;
+}
+.settings-form input{
+
+    border: none;
+    border-bottom: 1px solid black;
+}
+.settings-form input:focus{
+
+outline: none;
+}
+.settings-submit{
+    width: 90px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+    align-self: center;
+    cursor: pointer;
+}
